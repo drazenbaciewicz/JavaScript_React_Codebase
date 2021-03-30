@@ -1,0 +1,21 @@
+.searchbar_inner_container {
+    border: solid 1px #B0B0B0 !important;
+    border-radius: 20px;
+}
+
+.searchbar_textfield {
+
+    float: right !important;
+}
+
+.searchbar_inner_container input {
+    border: none !important;
+    height: 10px;
+    padding-left: 25px;
+    font-size: 28px;
+    width: 100% !important;
+}
+
+.searchbar_inner_container * {
+    border: none !important;
+}

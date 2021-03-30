@@ -1,0 +1,459 @@
+
+/*
+
+    Following CSS is core css for the login screen
+
+*/
+.loginScreen_container {
+    width: 100%;
+    height: 100%;
+}
+
+.login_header {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 40px;
+}
+
+.login_footer {
+    position: absolute;
+    bottom: 0;
+    right: -35%;
+    width: 100%;
+    height: 40px;
+}
+
+/* this is also in main.css
+.wallpaper_image {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}*/
+
+.middle_text {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 9px;
+    color:#4D4F5C;
+}
+
+.tech_support{
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+    color: #27486E;
+    font: 18px bold;
+}
+
+
+
+/*
+
+    Following CSS is for the login screen, primarily text etc
+
+*/
+.input_username {
+    padding: 5px !important;
+    padding-left: 50px;
+    width: 90%;
+}
+
+.input_username:hover {
+    color: #9EA0A5 !important;
+}
+
+.input_password {
+    padding: 5px !important;
+    width: 90%;
+}
+
+.clock_in_button {
+    top: 85%;
+    position: absolute !important;
+    width: 50%;
+    left: 25%;
+    font-size: 20px !important;
+    height: 60px;
+}
+
+.login_main_text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+    min-width: 600px;
+    background-color: rgb(255, 255, 255);
+}
+
+.log_in_button {
+    position: relative;
+    margin: 20px 0 0 0;
+    width: 50%;
+    font-size: 20px !important;
+    height: 60px;
+}
+
+.log_in_button:hover{
+    color:#E58C35;
+    background-color: #4D4F5C;
+}
+
+
+/*
+
+    Following CSS is for the clock-in screen, primarily text etc
+
+*/
+.welcome_back_text {
+    text-align: center;
+    color: #27486E;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    top: 40%;
+    font-size: 38px;
+}
+
+.employment_title{
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 25%;
+    color: #959494;
+    font-size: x-large;
+}
+
+.login_error {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    color:#C93A3A;
+    top: 49%;
+}
+
+.welcome_text {
+    color: #27486E;
+    text-align: center;
+    left: 10%;
+    font-size: 68px;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+    top: 35px;
+
+}
+
+div.current_time_value{
+    color: #3E3F42;
+}
+
+/*.current_time_prefix {
+    top: 42%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #2869A0;
+    font-size: 18px;
+}
+
+.current_time_value {
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    color: #2869A0;
+}*/
+
+Button.clock_in_button{
+    top: 85%;
+    text-align: center;
+    position: absolute;
+    color: white;
+    width: 50%;
+    left: 25%;
+    font-size: large;
+    height: 60px;
+}
+
+.clock_in_image{
+    top: 65%;
+    position: absolute;
+    left: 46%;
+}
+
+.logo_image {
+    margin: 0 0 100px 0;
+    width: 80%;
+    left: 10%;
+    top: 2%;
+    height: auto;
+    object-fit: cover;
+}
+
+.current_date_value{
+    position: absolute;
+    left: 24%;
+    top: 60%;
+    color: #27486E;
+    font-size: x-large;
+}
+
+.loading_current_time{
+    position: absolute;
+    left: 24%;
+    top: 75%;
+    color: #959494;
+    font-size: x-large;
+}
+
+.loggin_in_text {
+    font-size: 50px;
+    top: 65%;
+    font-weight: 100 !important;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: #2869A0;
+}
+
+.logging_in_dots {
+    font-size: 100px;
+    top: 68%;
+    font-weight: 100 !important;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: #2869A0;
+}
+
+.loginProgress {
+    transform: scale(1.5);
+    position: absolute;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.loginProgressHolder {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 75%;
+    height: 150px;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+}
+
+
+/* CSS for Reset Password */
+/*
+
+    Following CSS is core css for the Reset Password
+
+*/
+
+.forgot_password {
+    margin: 15px 0 0 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: large;
+    cursor: pointer;
+    /*sutbborn CSS*/
+    color: #27486E;
+}
+
+.forgot_password:hover {
+    color: #E58C35;
+    font-weight: bold;
+}
+
+Dialog.dialog_input_email{
+    color: #E58C35;
+    font-weight: bold;
+    padding: 40px;
+    font-size: large;
+}
+
+p.dialog_description_content{
+    color: #27486E;
+}
+
+.reset_email_sent{
+    color: black;
+    font-size: large;
+}
+
+input.forgot_pw_input_email{
+    border-radius: 50px;
+    font-size: large;
+    padding: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #9EA0A5;
+}
+
+Button.reset_cancel_button{
+    background-color: #E58C35;
+    color:white;
+    padding: 10px 15px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+Button.reset_dialog_button{
+    background-color: #27486E;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+div.reset_password_footer{
+    margin: 30px;
+}
+
+button.reset_cancel_button:hover{
+    background-color: #C93A3A;
+}
+
+button.reset_dialog_button:hover{
+    background-color: #000000;
+    font-weight: bold;
+}
+
+.reset_dialog_highlight_text{
+    color:  #C93A3A;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.reset_dialog_highlight_text:hover{
+    text-decoration: underline;
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    * {
+        background-color: lightblue !important;
+    }
+}
+*/
+
+.reset_dialog_try_again{
+    color:  #27486E;;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.reset_dialog_try_again:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+.reset_recovery_email{
+    color:#00AA86;
+}
+
+/*
+
+    CSS for styling the 2FA
+
+*/
+
+
+.logo_2fa {
+    margin: 0 0 120px 0;
+    width: 20%;
+    height: auto;
+    top: 5%;
+    position: relative
+}
+
+.digitCodeHeader {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    font-size: 22px;
+    color: #3E3F42;
+
+}
+
+.phoneNumber2fa {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    font-size: 38px;
+    color: #3E3F42;
+}
+
+.text_field2fa_holder {
+    margin: 50px 0 25px 0;
+    width: 60%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.text_field2fa {
+    width: 90px !important;
+    position: absolute;
+    font-size: 88px !important;
+    text-align: center;
+    height: 90px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border-color: #3E3F42;
+    border-width: 10px;
+}
+
+
+/*
+
+    CSS Styling for animations :)
+
+*/
+
+.login_animation-enter {
+    opacity: 0.01;
+}
+
+.login_animation-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+.login_animation-leave {
+    opacity: 1;
+}
+
+.login_animation-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+.example-enter {
+    opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

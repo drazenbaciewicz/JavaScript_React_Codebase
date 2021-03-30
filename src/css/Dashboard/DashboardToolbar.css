@@ -1,0 +1,127 @@
+/*
+
+    Primary container CSS
+
+*/
+
+
+.dashboard_toolbar_holder {
+    position: fixed;
+    width: 85%;
+    height: 90px;
+    right: 0;
+    top: 0;
+}
+
+.fas fa-arrow-alt-circle-down{
+    display: block;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    color: #20CB96;
+    top: 10%;
+    position: absolute;
+}
+
+.toolbar_notification_holder {
+    position: absolute;
+    width: 50px;
+    height: 50%;
+    top: 25%;
+    right: 220px;
+    text-align: center;
+}
+
+.toolbar_message_holder {
+    position: absolute;
+    width: 50px;
+    height: 50%;
+    top: 25%;
+    right: 300px;
+    text-align: center;
+}
+
+.toolbar_logo_holder {
+    position: absolute;
+    height: 80%;
+    width: auto;
+    top: 10%;
+    right: 10px;
+}
+
+/* 
+
+    Toolbar Override CSS
+
+*/
+
+.toolbar_badge {
+    color: #27486E !important;
+}
+
+/* 
+
+    Icon CSS
+
+*/
+
+.toolbar_icon_40 {
+    font-size: 50px !important;
+    color: #959494 !important;
+}
+
+.toolbar_icon_40:hover, .toolbar_icon_45:hover {
+    font-size: 60px !important;
+    color:#27486E;
+}
+
+.toolbar_icon_45 {
+    font-size: 55px !important;
+    margin-top: -2px;
+}
+
+span.MuiBadge-badge-253{
+    color: #fff;
+    background-color: #27486E;
+}
+
+span.MuiBadge-badge-12{
+    color: #fff;
+    background-color: #27486E;
+}
+
+.toolbar_icon_40, .toolbar_icon_45 {
+    color: #959494 !important;
+}
+
+
+
+
+
+
+
+.toolbar_icon_40_disabled {
+    font-size: 50px !important;
+}
+
+.toolbar_icon_45_disabled {
+    font-size: 55px !important;
+    margin-top: -2px;
+}
+
+.toolbar_icon_40_disabled, .toolbar_icon_45_disabled {
+    color: gray !important;
+}
+
+/* 
+
+    Image
+
+*/
+
+.toolbar_logo_image {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}

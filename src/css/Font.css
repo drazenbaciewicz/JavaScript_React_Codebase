@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Dotum";
+    src: url('../../src/assets/font/dotum.ttf') format('truetype');
+}
+
+* {
+    font-family: "Helvetica"
+}

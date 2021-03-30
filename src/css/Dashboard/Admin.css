@@ -1,0 +1,129 @@
+.group_list_holder {
+    width: 22%;
+    height: 80vh;
+    padding-top: 25px;
+    position: absolute;
+    /*border-right: solid 2px #2FBAFF;
+    border-left: solid 2px #2FBAFF;*/
+    
+}
+
+.horizontal_line {
+    width: 105%;
+    margin-left: -2.5%;
+    border-bottom: solid 1px gray;
+    height: 10px;
+    margin-bottom: -2px;
+}
+
+.group_list_title {
+    width: 100%;
+    font-size: 32px;
+    text-align: left;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.group_list_entry {
+    font-size: 24px;
+    color: gray;
+    padding: 10px;
+}
+
+.active_group_entry {
+    padding: 10px;
+    color: #2FBAFF !important;
+    background-color: #EBEBEB !important;
+}
+
+.group_users_icon {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Permission Settings */
+
+.permission_list_select_holder {
+    width: 72%;
+    margin-left: 25%;
+    height: 65vh;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.permission_inner_holder {
+    width: 100%;
+    height: 100%;
+}
+
+.permission_list_select_title {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.permission_select_entry_holder {
+    width: 45% !important;
+    min-width: 45% !important;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.permission_select_entry_container {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    max-width: 100% !important;
+    flex-wrap: wrap;
+    max-height: 80%;
+    overflow-y: scroll;
+    color: #959494;
+}
+
+.permission_select_entry_text {
+    float: right !important;
+    width: 75%;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.permission_select_entry_checkbox {
+    float: left !important;
+    position: absolute;
+}
+
+.permission_select_entry_checkbox {
+    float: left !important;
+    position: absolute;
+}
+
+.button_holder_update_permission {
+    width: 70%;
+    margin-left: 25%;
+    height: 15vh;
+    margin-top: 65vh;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.button_holder_update_group {
+    width: 425px;
+    height: 50px;
+    margin: 25px !important;
+}
+
+.button_holder_update_group_delete {
+    width: 425px;
+    height: 50px;
+    background-color: rgb(255, 103, 103) !important;
+    font-weight: bold !important;
+    margin: 25px !important;
+}

@@ -1,0 +1,90 @@
+.chat_popup_holder {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-content{
+    border-radius: 5px;
+    width: 55% !important;
+} 
+
+.popup_title {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 34px;
+    color: #27486E;
+}
+
+/* Notification popup list element */
+
+.notify_popup_list_holder {
+    width: 100% !important;
+    height: 80% !important;
+    margin-top: 3%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.notify_popup_div {
+    width: 93% !important;
+    height: 35px;
+    margin-left: 5%;
+    margin-right: 0%;
+    display: flex;
+    align-content: flex-start;
+    border-bottom: dotted 1px gray;
+    margin-top: 15px;
+}
+
+.notify_popup_div .not_seen_notify{
+    margin-right: 0%;
+}
+.notify_popup_header {
+    width: 50%;
+    font-size: 24px;
+    padding-top: 3px;
+    overflow-x: hidden;
+    color: #959494;
+    margin-right: 3%;
+}
+
+.notify_popup_header_id {
+    width: 25px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.notify_popup_date {
+    width: 40%;
+    font-size: 22px;
+    padding-top: 6px;
+    color: #959494;
+    margin-right: 2%;
+}
+
+.view_icon {
+    width: 10%;
+    text-align: right !important;
+    padding-top: 7px;
+    font-size: 24px;
+    padding-right: 10px;
+    cursor: pointer;
+    color:#27486E;
+}
+
+.view_icon:hover {
+    font-size: 28px;
+    color: #27486E;
+}
+
+.view_icon:active {
+    font-size: 28px;
+    color: #27486E;
+}
+
+
+.notify_popup_view{
+    font-size: 24px;
+    color: #27486E;
+}

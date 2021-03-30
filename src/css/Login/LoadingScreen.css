@@ -1,0 +1,25 @@
+.loading_screen_holder {
+    position: absolute;
+    width: 40%;
+    height: 75%;
+    top: 10%;
+    left: 30%;
+}
+
+.loading_text {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40%;
+    position: absolute;
+    color: #27486E;
+}
+
+.loginProgress {
+    width: 80%;
+    margin-top: 50%;
+    min-width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    position: absolute;
+}

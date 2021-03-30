@@ -1,0 +1,9 @@
+/* Client Calls */
+.client_call_list {
+    height: 80% !important;
+}
+.client_call_list .listFull {
+    border: none !important;
+    width: 98% !important;
+    background-color: white !important;
+}

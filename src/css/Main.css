@@ -1,0 +1,24 @@
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+@media not screen and (max-width: 1024px){
+    .wallpaper_image {
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        bottom: 0%;
+    }
+}
+
+textarea {
+    resize: none;
+  }

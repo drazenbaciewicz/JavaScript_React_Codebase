@@ -1,0 +1,125 @@
+/*
+    Main CSS goes here (for list)
+*/
+
+/* Container for the list */
+.list_main_holder {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* Container for the list elements */
+.list_display_holder {
+    margin-top: 55px;
+    max-height: 90%;
+    overflow-y: scroll !important;
+}
+
+/* Container for the header */
+.list_header_holder {
+    width: 100%;
+}
+
+/*
+    Main CSS for the header
+*/
+
+.list_header {
+    height: 50px;
+    position: absolute;
+    width: 100;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* List header column element */
+.list_header_row {
+    padding-left: 5px;
+    text-align: left;
+    font-size: 22px;
+    padding-top: 11px;
+    padding-right: 45px;
+    color: gray;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 8px 6px -6px #959494;
+    -moz-box-shadow: 0 8px 6px -6px #959494;
+    box-shadow: 0 8px 6px -6px #959494;
+
+    /* Flexbox */
+    flex: 1;
+}
+
+/* List header icons */
+.header_row_icon_up {
+    font-size: 12px;
+    position: absolute;
+    margin-left: 6px;
+    top: 12px;
+}
+
+.header_row_icon_down {
+    font-size: 12px;
+    position: absolute;
+    margin-left: 6px;
+    bottom: 12px;
+}
+
+/* Header checkbox */
+
+.list_header_checkbox {
+    padding-top: 13px !important;
+}
+
+.list_header_checkbox_empty {
+    width: 50px !important;
+    min-width: 50px !important;
+    height: 75%;
+    -webkit-box-shadow: 0 8px 6px -6px #959494;
+    -moz-box-shadow: 0 8px 6px -6px #959494;
+    box-shadow: 0 8px 6px -6px #959494;
+
+}
+
+/*
+
+    List CSS
+
+*/
+
+/* Element holder */
+.list_element_holder {
+    width: 100%;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.list_element_holder:hover {
+    background-color: #F0F0F0 !important;
+}
+
+/* Actual element CSS */
+.list_element_row {
+    padding-left: 5px;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 11px;
+    padding-right: 45px;
+    color: gray;
+    text-align: left;
+
+    /* Flexbox */
+    flex: 1;
+}

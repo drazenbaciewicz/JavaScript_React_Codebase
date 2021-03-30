@@ -1,0 +1,61 @@
+.create_group_container {
+    width: 98%;
+    height: 95%;
+    padding: 1%;
+    margin-top: 5%;
+    padding-top: 50px;
+}
+
+.create_group_title {
+    width: 100%;
+    height: 25px;
+    font-size: 32px;
+    text-align: left;
+    color: #2FBAFF;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: -60px;
+}
+
+.new_group_text_field {
+    position: absolute;
+    margin-top: -67px !important;
+    width: 50%;
+    margin-left: 45% !important;
+    font-size: 28px !important;
+}
+
+.new_group_text_field * {
+    font-size: 28px !important;
+}
+
+.permission_list_select_holder_popup {
+    margin-left: 0%;
+    width: 100%;
+    height: 60%;
+    border-top: solid 1px #D8D8D8;
+    border-bottom: solid 1px #D8D8D8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.save_group_button {
+    width: 30%;
+    height: 45px;
+    margin-right: 15px !important;
+}
+
+.close_group_button {
+    width: 30%;
+    height: 45px;
+    margin-left: 15px !important;
+}
+
+.button_popup_group_holder {
+    width: 98%;
+    bottom: 0 !important;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}

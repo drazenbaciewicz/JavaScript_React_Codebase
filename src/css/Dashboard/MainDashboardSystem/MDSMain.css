@@ -1,0 +1,15 @@
+.mds_main_holder {
+    width: 80% !important;
+    height: 60% !important;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+}
+
+.primary_mds_holder {
+    width: 95%;
+    padding-left: 2.5% !important;
+    padding-right: 2.5% !important;
+    height: 100%;
+    overflow-y: scroll;
+}

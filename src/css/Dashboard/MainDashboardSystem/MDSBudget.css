@@ -1,0 +1,48 @@
+.mdsa_top_holder {
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.mdsa_lead {
+    color: #2FABFF;
+    font-size: 32px;
+}
+
+.mds_budget_left {
+    width: 48% !important;
+    height: auto !important;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    float: left;
+}
+
+.mds_budget_right {
+    width: 48% !important;
+    height: auto !important;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    float: left;
+}
+
+.mds_budget_top_monthly_income {
+    width: 30% !important;
+    float: left !important;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+/* Individual views */
+.mds_budget_holder {
+    width: 100% !important;
+    height: 500px;
+}
+
+.mds_budget_title {
+    width: 100%;
+    text-align: left;
+    font-size: 28px;
+    color: gray;
+}

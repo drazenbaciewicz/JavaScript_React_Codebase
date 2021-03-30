@@ -1,0 +1,66 @@
+#RBS-Scheduler-root {
+    margin: 0 !important;
+    width: 98% !important;
+    height: 90% !important;
+}
+
+.calendar_container {
+
+}
+
+
+
+.rbc-toolbar button:hover{
+    border: 3px solid ;
+    border-color: #27486E !important;
+    color: #3E3F42 !important;
+}
+
+.rbc-toolbar button.rbc-active{
+    color:#27486E !important;
+    border: 3px solid ;
+    border-color: #27486E !important;
+    background-color: #9EA0A5;
+}
+
+.rbc-btn-group > button:only(last-child){
+    color:#27486E !important;
+    border: 3px solid ;
+    border-color: #27486E !important;
+    background-color: #9EA0A5;
+}
+
+
+.rbc-event{
+    background-color: #E8F2FF !important;
+    color: #3E3F42 !important;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #3E3F42;
+}
+
+.rbc-today{
+    background-color:#E8F2FF !important;
+}
+
+.rbc-current-time-indicator {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background-color: #27486E !important;
+    pointer-events: none;
+}
+
+.rbc-toolbar-label{
+    font-size: 32px;
+    color: #27486E;
+}
+
+.listFull {
+    border: none !important;
+    width: 98% !important;
+    background-color: white !important;
+}

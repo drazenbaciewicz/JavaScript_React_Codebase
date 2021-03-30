@@ -1,0 +1,113 @@
+/* Main Holders */
+.mdsp_ap_holder {
+    width: 550px;
+    height: 700px;
+}
+
+.mdsp_ap_title {
+    width: 90%;
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.mdsp_ap_row {
+    width: 90%;
+    height: 70px;
+    
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+
+/* Inputs and things */
+.mds_ap_call_subject {
+    height: 40px;
+}
+
+.mdsp_ap_lead_container {
+    width: 45%;
+    margin-left: 5%;
+    height: 40px;
+    border: solid 1px #D0D0D0;
+    border-radius: 5px;
+    margin-top: -1px;
+}
+
+.mdsp_ap_lead_container:hover {
+    border: solid 1px gray;
+}
+
+.mdsp_ap_lead_text {
+    text-align: left;
+    width: 100%;
+    color: gray;
+    padding-left: 10px;
+    margin-top: 17px;
+}
+
+.mdsp_ap_date {
+    width: 45% !important;
+}
+
+.mdsp_ap_datetime {
+    width: 45% !important;
+    margin-left: 5% !important;
+}
+
+.mdsp_ap_flexible {
+    width: 15% !important;
+    padding-left: 3% !important;
+}
+
+.mdsp_ap_alert_checkbox {
+    width: 100%;
+}
+
+.mdsp_app_alert_text {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.mdsap_ap_row_border {
+    width: 102%;
+    border-bottom: solid 1px gray;
+    padding: 0 !important;
+    margin-left: -1%;
+    margin-top: 15px;
+    margin-bottom: 25px !important;
+}
+
+.mdsp_ap_invite_title {
+    width: 150px;
+}
+
+.mdsp_ap_invite_email {
+    width: 100px;
+    height: 20px;
+}
+
+.mdsp_ap_invite_sms {
+    width: 100px;
+    height: 20px;
+}
+
+.mdsp_ap_email_menu_selector_holder {
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 30px;
+
+    border: solid 1px #D0D0D0;
+    border-radius: 5px;
+}
+
+.mdsp_ap_email_select, .mdsp_ap_phone_select {
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+    color: gray;
+}

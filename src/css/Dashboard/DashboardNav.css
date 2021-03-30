@@ -1,0 +1,86 @@
+.dashboard_nav_holder {
+    width: 100%;
+    height: 78%;
+    bottom: 0 !important;
+    position: absolute;
+    /*background-color: blue;*/
+}
+
+.dashboard_nav_title {
+    font-size: 26px;
+    padding-left: 15px;
+    color: #9EA0A5;
+    margin-bottom: 10px;
+}
+
+/*
+    List Element
+*/
+
+.dashboard_nav_list_element {
+    width: 100% !important;
+    height: 70px;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 24px;
+    font-weight: lighter;
+    background-color: white;
+    border-right: solid 28px white !important;
+    color: #9EA0A5;
+    -webkit-transition: all 0.5s !important; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s !important;
+}
+
+.dashboard_nav_list_element:hover {
+    color:#27486E;
+    -webkit-transition: all 0.5s !important; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s !important;
+    background-color: #E8F2FF!important;
+    border-right: solid 28px #9EA0A5 !important;
+    font-weight: bold;
+}
+
+.nav_list_title {
+    padding-left: 85px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+/*.active:hover {*/
+/*    -webkit-transition: all 0.5s !important; !* For Safari 3.1 to 6.0 *!*/
+/*    transition: all 0.5s !important;*/
+/*    border-right: solid 28px #27486E !important;*/
+/*}*/
+
+/*.active {*/
+/*    background-color: #E8F2FF!important;*/
+/*    width: 100% !important;*/
+/*    color:#27486E;*/
+/*    -webkit-transition: all 0.5s !important; !* For Safari 3.1 to 6.0 *!*/
+/*    transition: all 0.5s !important;*/
+/*    border-right: #27486E solid 28px !important;*/
+/*}*/
+
+.navbar_icon {
+    position: absolute;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+
+/* Side filler to keep the gray all the way to the bottom */
+.dashboard_nav_side_filler {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    border-right: solid 28px white !important;
+}
+
+.dashboard_minimize_button {
+    position: absolute;
+    right: 15px;
+    top: -20px;
+    background-color: red;
+}

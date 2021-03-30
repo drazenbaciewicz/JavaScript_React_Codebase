@@ -1,0 +1,130 @@
+/*
+    Controlling Containers
+*/
+
+.dashboard_sidebar_holder {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 18%;
+    height: 100%;
+    /*background-color: red;*/
+}
+
+.dashboard_sidebar_top {
+    position: absolute;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 200px;
+    /*background-color: yellow;*/
+}
+
+.dashboard_user_info_holder {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+}
+
+.user_statistics_holder {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* 
+
+    Top Image
+
+*/
+
+.profile_image {
+    margin-top: 1% !important;
+    height: auto;
+    width: 30%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-left: 15px;
+    position: absolute;
+}
+
+/*
+    User Information
+*/
+
+.name_holder {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    font-size: 22px;
+    bottom: 32px;
+    color: #27486E;
+    width: 55%;
+    text-align: right;
+    height: 12px;
+}
+
+.title_holder {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    font-size: 16px;
+    bottom: 0;
+    color: #9EA0A5;
+    width: 50%;
+    text-align: right;
+    height: 12px;
+}
+
+@media (max-width: 1024px) {
+
+    .name_holder {
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    .title_holder {
+        position: absolute;
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: -15px;
+    }
+
+    .profile_image {
+        display: none;
+    }
+}
+
+/*
+
+    Statistics CSS
+
+*/
+
+.total_calls_holder {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 100%;
+}
+
+.app_conversion_holder {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100%;
+}
+
+.stats_value {
+    font-size: 38px;
+    color: #E58C35;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.stats_title {
+    color: #9EA0A5;
+    margin-left: 15px;
+    font-size: 18px;
+}

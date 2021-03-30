@@ -1,0 +1,96 @@
+.employee_chat_selector{
+    background-color: #eb9605;
+    height: 90%;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.employee_chat_channel_selector {
+    width: 100%;
+    height: 35px;
+    color: white;
+    text-align: left;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.employee_group_channels {
+    width: 100%;
+    height: auto;
+}
+
+.employee_group_channel_header {
+    width: 90%;
+    height: 40px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.employee_chat_channel_title {
+    font-size: 28px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.add_group_icon {
+    text-align: right;
+    float: right;
+    padding-right: 15px;
+}
+
+/*
+
+    Channel Entry
+
+*/
+
+.active_channel {
+    background-color: white !important;
+    color: #ffd17c !important;
+    border-right: solid 0px gray;
+    box-sizing: border-box;
+    width: 100% !important;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.channel_entry_element {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.channel_delete_icon {
+    float: right;
+    margin-right: 50px;
+    font-size: 26px;
+    color: white;
+}
+
+.channel_entry_icon {
+    float: right;
+    margin-right: 50px;
+    font-size: 26px;
+    color: white;
+}
+
+.channel_entry_icon:hover {
+    color: #ffd17c;
+    font-size: 28px;
+}
+
+.active_icon {
+    margin-right: 35px !important;
+    color: #ffd17c;
+}

@@ -1,0 +1,194 @@
+/* Settings holders and containers */
+.appbar_settings {
+    width: 95% !important;
+    margin-left: 10px !important;
+
+    background-color: white !important;
+}
+
+.settings_container {
+    width: 100%;
+    height: 85%;
+}
+
+.settings_team_container {
+    width: 100%;
+    height: 85%;
+}
+
+/* Settings Account */
+.account_top_spacer {
+    width: 100%;
+    margin-top: 50px;
+}
+.account_container {
+    width: 100%;
+    height: 100%;
+
+    /* CSS Flexbox */
+    display: flex;
+    align-content: center;
+}
+.account_container_left {
+    width: 30%;
+    height: 100%;
+}
+
+.account_container_middle {
+    width: 40%;
+    height: 100%;
+}
+
+.account_container_right {
+    width: 40%;
+    height: 100%;
+}
+
+.account_profile_picture_img {
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: auto;
+}
+
+.account_title_header {
+    height: 15px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 5%;
+    color: gray;
+}
+
+.account_title {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 28px;
+    margin-left: 5%;
+}
+
+.account_middle_spacer {
+    width: 100%;
+    height: 80px;
+}
+
+.account_container_input_header {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 25px;
+    height: 15px;
+}
+
+.account_container_input {
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+
+}
+
+.account_container_input input {
+    font-size: 24px !important;
+    color: #2FBAFF;
+}
+
+.radio_title {
+    font-size: 28px !important;
+    margin-bottom: 20px;
+}
+
+.radio_box span {
+    font-size: 24px !important;
+    color: #2FBAFF! important;
+}
+
+.account_permission_group_dropdown {
+    width: 80%;
+    height: 50px;
+    margin-top: 100px;
+    padding: 15px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #2FBAFF !important;
+}
+
+.account_permission_group_select {
+    width: 100%;
+    height: 50px;
+
+}
+
+/* Settings Team */
+.settings_team_list {
+    height: 80% !important;
+}
+
+.settings_team_container .listFull {
+    border: none !important;
+    width: 98% !important;
+    background-color: white !important;
+}
+
+.settings_team_button_holder {
+    width: 100%;
+    height: 80px;
+}
+
+.button_team_add_employee {
+    width: 250px;
+    min-width: 250px;
+    height: 40px;
+    margin-left: 5px !important;
+    margin-right: 25px !important;
+    margin-top: 25px !important;
+}
+
+.button_team_edit_employee {
+    width: 250px;
+    min-width: 250px;
+    height: 40px;
+    margin-left: 5px !important;
+    margin-right: 25px !important;
+    margin-top: 25px !important;
+}
+
+.button_team_delete_employee {
+    width: 250px;
+    min-width: 250px;
+    height: 40px;
+    margin-left: 5px !important;
+    margin-right: 25px !important;
+    margin-top: 25px !important;
+    color: red !important;
+}
+
+.button_team_delete_employee:hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+.settings_team_button_icon {
+    float: left !important;
+    width: 35px !important;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-left: -5px;
+}
+
+.settings_account_save_button {
+    width: 50%;
+    margin-left: 25% !important;
+    height: 35px;
+    color: #2FBAFF;
+}
+
+/* Settings Admin */
+
+.administrative_control_header {
+    font-size: 24px !important;
+    color: gray;
+    margin-top: 15px;
+    position: absolute;
+}
